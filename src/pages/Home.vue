@@ -120,13 +120,13 @@ watch(filters, fetchItems) //Сортировка
 
 <template>
   <div class="flex justify-between items-center">
-    <h2 class="text-3xl font-bold mb-8">Все мемы</h2>
+    <h2 class="text-3xl font-bold mb-8">Все приправы и специи</h2>
 
     <div class="flex gap-4">
       <select @change="onChangeSekect" class="py-2 px-3 border rounded-md outline-none">
         <option value="name">По названию</option>
-        <option value="price">Год (возрастает)</option>
-        <option value="-price">Год (убывает)</option>
+        <option value="price">Цена (возрастает)</option>
+        <option value="-price">Цена (убывает)</option>
       </select>
 
       <div class="relative">

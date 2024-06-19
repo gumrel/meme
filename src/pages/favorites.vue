@@ -20,7 +20,7 @@ onMounted(async () => {
 </script>
 
 <template>
-  <h2 class="text-3xl font-bold mb-8">Мои Закладки</h2>
+  <h2 class="text-3xl font-bold mb-8">Моя корзина</h2>
 
   <CardList :items="favorites" is-favorites />
 </template>
